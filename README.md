@@ -24,3 +24,7 @@ Package Control
 Pretty JSON
 
 Theme - Coffe
+
+https://github.com/michelmorais/Openfileccplusplus-sublime
+
+https://github.com/michelmorais/sublime-unicode-character-insert
