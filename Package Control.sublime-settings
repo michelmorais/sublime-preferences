@@ -1,7 +1,5 @@
 {
 	"bootstrapped": true,
-	"http_proxy": "http://http://proxy.company.com.br:port",
-	"https_proxy": "http://proxy.company.com.br:port",
 	"in_process_packages":
 	[
 	],
@@ -12,18 +10,12 @@
 		"Boxy Theme",
 		"CFG Configuration Syntax Highlighting",
 		"CMake",
-		"Compare Side-By-Side",
 		"EasyClangComplete",
 		"HTMLBeautify",
 		"Javascript Beautify",
-		"JavaScript Next Snippets",
 		"jQuery",
 		"Package Control",
 		"Pretty JSON",
-		"SublimeAStyleFormatter",
-		"Theme - Afterglow",
 		"Theme - Coffee"
-	],
-	"proxy_password": "password",
-	"proxy_username": "username"
+	]
 }
