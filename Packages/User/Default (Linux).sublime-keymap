@@ -1,5 +1,15 @@
 [
-	{ "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
- 	{ "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
- 	{ "keys": ["ctrl+shift+r"], "command": "reindent", "args": {"single_line": false}}
+    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+r"], "command": "reindent", "args": {"single_line": false}},
+    {
+    "keys": ["control+alt+f"], //  create your own key command combination here!
+    "command": "html_beautify", // command that executes html_beautify
+    "context": [{
+        // these options ensure that the command is executed in the right files/context
+        "key": "selector",
+        "operator": "equal",
+        "operand": "text.html,text.html.twig,text.twig,source.html,source.html.twig,source.twig"
+    }]
+}
 ]

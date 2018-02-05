@@ -62,7 +62,7 @@
   "gutter_style": "color",
 
   // triggers for auto-completion
-  "triggers" : [ ".", "->", "::", " ", "  ", "(", "[" ],
+  "triggers" : [ ".", "->", "::", " ", "    ", "(", "[" ],
 
   // Use libclang.
   // If set to false will use clang_binary and parse the output of
