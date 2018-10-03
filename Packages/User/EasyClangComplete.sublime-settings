@@ -62,7 +62,7 @@
   "gutter_style": "color",
 
   // triggers for auto-completion
-  "triggers" : [ ".", "->", "::", " ", "    ", "(", "[" ],
+  "triggers" : [ ".", "->", "::", " ", "  ", "(", "[" ],
 
   // Use libclang.
   // If set to false will use clang_binary and parse the output of
@@ -100,14 +100,14 @@
 
   // Show additional information on hover over function call/variable etc.
   // This replaces default sublime on hover behaviour
-  "show_type_info": true,
+  "show_type_info": false,
 
   // Show body of struct/class/typedef declaration.
   "show_type_body" : true,
 
   // On some esoteric systems we cannot find libclang properly.
   // If you know where your libclang is - set the full path here.
-  "libclang_path": "/usr/lib/llvm-4.0/lib/libclang.so.1",
+  "libclang_path": "/usr/lib/llvm-6.0/lib/libclang.so.1",
 
   // Pick the progress style. There are currently these styles available:
   // - "ColorSublime" : '⣾⣽⣻⢿⡿⣟⣯⣷'
@@ -145,7 +145,7 @@
 
     // And in the "source" directory:
     "../source/",
-
+    "./common/"
     // Example: Use flags but only from the source file
     // belonging to the header in question:
     // "{stamp}.cpp",
@@ -185,4 +185,4 @@
   "target_cpp_compiler": null,
   "target_objective_c_compiler": null,
   "target_objective_cpp_compiler": null,
-}
+  }
